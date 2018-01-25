@@ -23,7 +23,11 @@ void __stack_chk_fail(void)
 #endif
 }
 
+void shell_prompt() {
+	terminal_writestring("system $ ");
+}
+
 void kernel_main(void) {
 	terminal_initialize();
-	printf("Hello, kernel World!\n");
+	shell_prompt();
 }
