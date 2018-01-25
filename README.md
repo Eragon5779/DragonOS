@@ -10,7 +10,7 @@ DragonOS is a project to create an exokernel system from scratch. Starting with 
 * File system support (exact FS TBD)
 * Basic networking
 
-##TODO
+## TODO
 * Create shell
 * Add commands
 * Make usable
